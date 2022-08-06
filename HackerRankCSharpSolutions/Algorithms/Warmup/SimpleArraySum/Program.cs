@@ -1,19 +1,15 @@
-﻿TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+﻿string testData = "1 2 3 4 10 11";
 
-int arCount = Convert.ToInt32(Console.ReadLine().Trim());
-
-List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
+List<int> ar = testData.TrimEnd().Split(' ')
+    .ToList()
+    .Select(arTemp => Convert.ToInt32(arTemp))
+    .ToList();
 
 int result = Result.SimpleArraySum(ar);
-
-textWriter.WriteLine(result);
-textWriter.Flush();
-textWriter.Close();
-
+Console.WriteLine(result);
 
 class Result
 {
-
     /*
      * Complete the 'simpleArraySum' function below.
      *
@@ -23,6 +19,5 @@ class Result
 
     public static int SimpleArraySum(List<int> ar)
     {
-
     }
 }
