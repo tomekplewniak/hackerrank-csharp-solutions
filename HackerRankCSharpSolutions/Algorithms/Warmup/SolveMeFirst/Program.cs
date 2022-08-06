@@ -5,4 +5,5 @@ Console.WriteLine(sum);
 
 static int SolveMeFirst(int a, int b)
 {
+    return a + b;
 }
