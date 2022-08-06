@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{E955CE69-6BCA-46DF-82BE-30EF53FDDB44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Warmup", "Warmup", "{693A4D6C-B847-4EB4-8B34-0F82E4557C4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{19B0FC9C-1556-42AE-A583-7BB3287E27A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveMeFirst", "Algorithms\Warmup\SolveMeFirst\SolveMeFirst.csproj", "{6178B929-D687-448D-947D-21A4A2222E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2DFBC65-1569-4C22-B9FA-414A29D35CB9}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6178B929-D687-448D-947D-21A4A2222E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6178B929-D687-448D-947D-21A4A2222E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6178B929-D687-448D-947D-21A4A2222E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6178B929-D687-448D-947D-21A4A2222E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{693A4D6C-B847-4EB4-8B34-0F82E4557C4F} = {E955CE69-6BCA-46DF-82BE-30EF53FDDB44}
+		{19B0FC9C-1556-42AE-A583-7BB3287E27A4} = {693A4D6C-B847-4EB4-8B34-0F82E4557C4F}
+		{6178B929-D687-448D-947D-21A4A2222E6F} = {19B0FC9C-1556-42AE-A583-7BB3287E27A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {470F06D4-3140-4BEC-96F2-CCA88841A3F5}
+	EndGlobalSection
+EndGlobal
