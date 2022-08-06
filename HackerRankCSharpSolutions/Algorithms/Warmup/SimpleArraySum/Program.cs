@@ -8,6 +8,9 @@ List<int> ar = testData.TrimEnd().Split(' ')
 int result = Result.SimpleArraySum(ar);
 Console.WriteLine(result);
 
+int result2 = Result.SimpleArraySumViaLinq(ar);
+Console.WriteLine(result2);
+
 class Result
 {
     /*
@@ -19,5 +22,18 @@ class Result
 
     public static int SimpleArraySum(List<int> ar)
     {
+        int sum = 0;
+
+        foreach (int a in ar)
+        {
+            sum += a;
+        }
+
+        return sum;
+    }
+
+    public static int SimpleArraySumViaLinq(List<int> ar)
+    {
+        return ar.Sum();
     }
 }
