@@ -2,8 +2,11 @@
 
 List<long> ar = testData.TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt64(arTemp)).ToList();
 
-long result = Result.AVeryBigSum(ar);
+var result = Result.AVeryBigSum(ar);
 Console.WriteLine(result);
+
+var resultViaLinq = Result.AVeryBigSumViaLinq(ar);
+Console.WriteLine(resultViaLinq);
 
 class Result
 {
@@ -16,6 +19,17 @@ class Result
 
     public static long AVeryBigSum(List<long> ar)
     {
-        throw new NotImplementedException();
+        long sum = 0;
+        foreach (long a in ar)
+        {
+            sum += a;
+        }
+
+        return sum;
+    }
+
+    public static long AVeryBigSumViaLinq(List<long> ar)
+    {
+        return ar.Sum();
     }
 }
