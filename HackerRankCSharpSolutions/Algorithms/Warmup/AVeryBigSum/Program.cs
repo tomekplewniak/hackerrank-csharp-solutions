@@ -1,19 +1,12 @@
-﻿TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+﻿string testData = "1000000001 1000000002 1000000003 1000000004 1000000005";
 
-int arCount = Convert.ToInt32(Console.ReadLine().Trim());
+List<long> ar = testData.TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt64(arTemp)).ToList();
 
-List<long> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt64(arTemp)).ToList();
-
-long result = Result.aVeryBigSum(ar);
-
-textWriter.WriteLine(result);
-
-textWriter.Flush();
-textWriter.Close();
+long result = Result.AVeryBigSum(ar);
+Console.WriteLine(result);
 
 class Result
 {
-
     /*
      * Complete the 'aVeryBigSum' function below.
      *
@@ -21,9 +14,8 @@ class Result
      * The function accepts LONG_INTEGER_ARRAY ar as parameter.
      */
 
-    public static long aVeryBigSum(List<long> ar)
+    public static long AVeryBigSum(List<long> ar)
     {
         throw new NotImplementedException();
     }
-
 }
