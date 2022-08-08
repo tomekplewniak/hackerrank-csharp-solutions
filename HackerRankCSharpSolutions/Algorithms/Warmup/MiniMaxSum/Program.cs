@@ -1,6 +1,7 @@
-﻿List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+﻿var testData = "1 2 3 4 5";
+List<int> arr = testData.TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
-Result.miniMaxSum(arr);
+Result.MiniMaxSum(arr);
 
 class Result
 {
@@ -11,7 +12,7 @@ class Result
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
 
-    public static void miniMaxSum(List<int> arr)
+    public static void MiniMaxSum(List<int> arr)
     {
 
     }
