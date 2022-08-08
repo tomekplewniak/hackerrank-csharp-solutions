@@ -14,6 +14,14 @@ class Result
 
     public static void MiniMaxSum(List<int> arr)
     {
+        long min = arr.Min();
+        long max = arr.Max();
 
+        List<long> longArr = arr.ConvertAll(i => Convert.ToInt64(i));
+        long sumOfTotalElements = longArr.Sum();
+        long minimalSum = sumOfTotalElements - max;
+        long maximalSum = sumOfTotalElements - min;
+
+        Console.WriteLine($"{minimalSum} {maximalSum}");
     }
 }
