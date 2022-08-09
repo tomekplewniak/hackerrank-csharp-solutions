@@ -7,5 +7,8 @@
 	- Simple Array Sum *[Link to challenge](https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true)*.
 	- A Very Big Sum *[Link to challenge](https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true)*.
 	- Mini-Max Sum *[Link to challenge](https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true)*.
+	- A Very Big Sum *[Link to challenge](https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true)*.
+	- Plus Minus *[Link to challenge](https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true)*.
+
 - Medium:
 - Hard
