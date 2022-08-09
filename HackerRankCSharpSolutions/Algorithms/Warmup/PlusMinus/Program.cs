@@ -16,7 +16,7 @@ class Result
         var zeros = 0;
         var count = arr.Count();
 
-        foreach(var item in arr)
+        foreach (var item in arr)
         {
             switch (item)
             {
