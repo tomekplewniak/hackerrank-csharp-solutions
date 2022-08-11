@@ -1,6 +1,8 @@
-﻿class Result
-{
+﻿var s = "saveChangesInTheEditor";
+int result = Result.CamelCase(s);
 
+class Result
+{
     /*
      * Complete the 'camelcase' function below.
      *
@@ -8,26 +10,13 @@
      * The function accepts STRING s as parameter.
      */
 
-    public static int camelcase(string s)
+    public static int CamelCase(string s)
     {
+        var countWords = (from c in s
+                     where char.IsUpper(c)
+                     select c)
+                     .Count();
 
-    }
-
-}
-
-class Solution
-{
-    public static void Main(string[] args)
-    {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
-
-        string s = Console.ReadLine();
-
-        int result = Result.camelcase(s);
-
-        textWriter.WriteLine(result);
-
-        textWriter.Flush();
-        textWriter.Close();
+        return countWords;
     }
 }
