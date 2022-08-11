@@ -9,6 +9,7 @@
 	- Mini-Max Sum *[Link to challenge](https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true)*.
 	- A Very Big Sum *[Link to challenge](https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true)*.
 	- Plus Minus *[Link to challenge](https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true)*.
+	- Birthday Cake Candles *[Link to challenge](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true)*.
 
 - Medium:
 - Hard
