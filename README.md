@@ -13,3 +13,7 @@
 
 - Medium:
 - Hard
+
+### Strings
+- Easy:
+	- CamelCase *[Link to challenge](https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true)*.

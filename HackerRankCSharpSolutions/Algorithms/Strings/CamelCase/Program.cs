@@ -1,6 +1,8 @@
 ﻿var s = "saveChangesInTheEditor";
 int result = Result.CamelCase(s);
 
+Console.WriteLine(result);
+
 class Result
 {
     /*
@@ -12,11 +14,12 @@ class Result
 
     public static int CamelCase(string s)
     {
-        var countWords = (from c in s
+        var counter = 1;
+        counter += (from c in s
                      where char.IsUpper(c)
                      select c)
                      .Count();
 
-        return countWords;
+        return counter;
     }
 }
