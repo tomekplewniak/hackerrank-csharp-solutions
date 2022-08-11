@@ -6,7 +6,6 @@ Console.WriteLine(result);
 
 class Result
 {
-
     /*
      * Complete the 'birthdayCakeCandles' function below.
      *
@@ -15,7 +14,11 @@ class Result
      */
     public static int BirthdayCakeCandles(List<int> candles)
     {
-
+        var max = candles.Max();
+        var numberOfCandles = (from candle in candles
+                               where candle == max
+                               select candle)
+                               .Count();
+        return numberOfCandles;
     }
-
 }
