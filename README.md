@@ -14,6 +14,10 @@
 - Medium:
 - Hard
 
+### Implementation
+- Easy:
+	- Apple and Orange *[Link to challenge](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true)*.
+
 ### Strings
 - Easy:
 	- CamelCase *[Link to challenge](https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true)*.
