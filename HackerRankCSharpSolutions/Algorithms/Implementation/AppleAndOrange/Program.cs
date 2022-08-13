@@ -1,4 +1,6 @@
-﻿string[] firstMultipleInput = "7 11".TrimEnd().Split(' ');
+﻿using System;
+
+string[] firstMultipleInput = "7 11".TrimEnd().Split(' ');
 int s = Convert.ToInt32(firstMultipleInput[0]);
 int t = Convert.ToInt32(firstMultipleInput[1]);
 
@@ -42,6 +44,28 @@ class Result
         List<int> apples, 
         List<int> oranges)
     {
+        var applesCount = 0;
+        var orangesCount = 0;
 
+        foreach (var apple in apples)
+        {
+            var position = a + apple;
+            if (position >= s && position <= t)
+            {
+                applesCount++;
+            }
+        }
+
+        foreach(var orange in oranges)
+        {
+            var position = b + orange;
+            if (position >= s && position <= t)
+            {
+                orangesCount++;
+            }
+        }
+
+        Console.WriteLine(applesCount);
+        Console.WriteLine(orangesCount);
     }
 }
