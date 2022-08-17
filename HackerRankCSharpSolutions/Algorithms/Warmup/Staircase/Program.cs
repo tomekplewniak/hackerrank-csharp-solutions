@@ -12,7 +12,13 @@ class Result
 
     public static void Staircase(int n)
     {
-
+        string staircase = "";
+        string mark = "#";
+        for (int i = 0; i <= n - 1; i++)
+        {
+            staircase += mark;
+            Console.WriteLine(staircase.PadLeft(n));
+        }
     }
 
 }
