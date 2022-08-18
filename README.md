@@ -22,3 +22,4 @@
 ### Strings
 - Easy:
 	- CamelCase *[Link to challenge](https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true)*.
+	- Panagrams *[Link to challenge](https://www.hackerrank.com/challenges/pangrams/problem?isFullScreen=true)*.
