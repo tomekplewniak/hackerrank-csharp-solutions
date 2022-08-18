@@ -1,9 +1,11 @@
-﻿string s = Console.ReadLine();
-string result = Result.pangrams(s);
+﻿string firstTestData = "We promptly judged antique ivory buckles for the next prize";
+string secondTestData = "All of the letters of the alphabet are present in the string.";
+
+string firstResult = Result.Pangrams(firstTestData);
+string secondResult = Result.Pangrams(secondTestData);
 
 class Result
 {
-
     /*
      * Complete the 'pangrams' function below.
      *
@@ -11,7 +13,7 @@ class Result
      * The function accepts STRING s as parameter.
      */
 
-    public static string pangrams(string s)
+    public static string Pangrams(string s)
     {
 
     }
