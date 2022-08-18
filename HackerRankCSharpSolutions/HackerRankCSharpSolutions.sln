@@ -38,7 +38,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{F3EA8D44-5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleAndOrange", "Algorithms\Implementation\AppleAndOrange\AppleAndOrange.csproj", "{978A7FD6-B98F-494B-AF2D-EE9548F9EB88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staircase", "Algorithms\Warmup\Staircase\Staircase.csproj", "{17EA2BCD-042E-4F6E-96A0-49F620AD91F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staircase", "Algorithms\Warmup\Staircase\Staircase.csproj", "{17EA2BCD-042E-4F6E-96A0-49F620AD91F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangrams", "Algorithms\Strings\Pangrams\Pangrams.csproj", "{32B629DE-BD9C-4BE3-979B-78F171DCE915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +84,10 @@ Global
 		{17EA2BCD-042E-4F6E-96A0-49F620AD91F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17EA2BCD-042E-4F6E-96A0-49F620AD91F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17EA2BCD-042E-4F6E-96A0-49F620AD91F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B629DE-BD9C-4BE3-979B-78F171DCE915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B629DE-BD9C-4BE3-979B-78F171DCE915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B629DE-BD9C-4BE3-979B-78F171DCE915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B629DE-BD9C-4BE3-979B-78F171DCE915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{F3EA8D44-5A33-4AB5-95D3-3351373D109B} = {FBDD39E2-F904-4E32-87AD-3C44C023E105}
 		{978A7FD6-B98F-494B-AF2D-EE9548F9EB88} = {F3EA8D44-5A33-4AB5-95D3-3351373D109B}
 		{17EA2BCD-042E-4F6E-96A0-49F620AD91F6} = {19B0FC9C-1556-42AE-A583-7BB3287E27A4}
+		{32B629DE-BD9C-4BE3-979B-78F171DCE915} = {8BAE55AA-F8ED-4A96-9660-5DE846174204}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {470F06D4-3140-4BEC-96F2-CCA88841A3F5}
