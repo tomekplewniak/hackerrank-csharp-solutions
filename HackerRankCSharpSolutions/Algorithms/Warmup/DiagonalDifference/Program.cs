@@ -1,15 +1,23 @@
-﻿
-int n = Convert.ToInt32(Console.ReadLine().Trim());
+﻿List<List<int>> arr = new List<List<int>>();
 
-List<List<int>> arr = new List<List<int>>();
-
-for (int i = 0; i < n; i++)
+arr = new List<List<int>>()
 {
-    arr.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList());
-}
+    new List<int>()
+    {
+        11, 2, 4
+    },
+    new List<int>()
+    {
+        4, 5, 6
+    },
+        new List<int>()
+    {
+       10, 8, - 12
+    }
+};
 
-int result = Result.diagonalDifference(arr);
 
+int result = Result.DiagonalDifference(arr);
 Console.WriteLine(result);
 
 class Result
@@ -20,7 +28,7 @@ class Result
      * The function is expected to return an INTEGER.
      * The function accepts 2D_INTEGER_ARRAY arr as parameter.
      */
-    public static int diagonalDifference(List<List<int>> arr)
+    public static int DiagonalDifference(List<List<int>> arr)
     {
 
     }
