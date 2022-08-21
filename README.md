@@ -11,6 +11,7 @@
 	- Plus Minus *[Link to challenge](https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true)*.
 	- Birthday Cake Candles *[Link to challenge](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true)*.
 	- Staircase *[Link to challenge](https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true)*.
+	- Compare the Triplets *[Link to challenge](https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true)*.
 
 - Medium:
 - Hard

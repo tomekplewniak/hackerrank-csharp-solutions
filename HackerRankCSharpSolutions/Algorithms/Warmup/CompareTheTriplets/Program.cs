@@ -9,6 +9,8 @@ Console.WriteLine(String.Join(" ", result));
 
 class Result
 {
+    private static readonly string _alice = "Alice";
+    private static readonly string _bob = "Bob";
 
     /*
      * Complete the 'compareTriplets' function below.
@@ -21,7 +23,37 @@ class Result
 
     public static List<int> CompareTriplets(List<int> a, List<int> b)
     {
+        Dictionary<string, int> points = new Dictionary<string, int>();
 
+        points.Add("Alice", 0);
+        points.Add("Bob", 0);
+
+        if (a.Count() != b.Count())
+        {
+            throw new ArgumentException("The provided data has diffrent length.");
+        }
+
+        for (int i = 0; i < a.Count; i++)
+        {
+            if (a[i] > b[i])
+            {
+                points[_alice] += 1;
+            }
+            else
+            {
+                if (a[i] == b[i])
+                {
+                    continue;
+                }
+
+                points[_bob] += 1;
+            }
+        }
+
+        return new List<int>()
+        {
+            points[_alice],
+            points[_bob]
+        };
     }
-
 }
