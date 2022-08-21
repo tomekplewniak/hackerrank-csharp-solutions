@@ -30,6 +30,17 @@ class Result
      */
     public static int DiagonalDifference(List<List<int>> arr)
     {
+        int primaryDiagonal = 0;
+        int secondaryDiagonal = 0;
 
+        int length = arr.Count();
+
+        for (int i = 0; i < length; i++)
+        {
+            primaryDiagonal += arr[i][i];
+            secondaryDiagonal += arr[i][arr.Count() - i - 1];
+        }
+
+        return Math.Abs(primaryDiagonal - secondaryDiagonal);
     }
 }
