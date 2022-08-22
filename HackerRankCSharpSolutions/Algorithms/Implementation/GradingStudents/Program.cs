@@ -20,6 +20,35 @@ class Result
      */
     public static List<int> GradingStudents(List<int> grades)
     {
+        var roundedGrades = new List<int>();
 
+        foreach (var grade in grades)
+        {
+            if (grade < 38)
+            {
+                roundedGrades.Add(grade);
+                continue;
+            }
+
+            if (grade % 5 == 0)
+            {
+                roundedGrades.Add(grade);
+                continue;
+            }
+
+            var roundedGrade = grade;
+            for (int i = 1; i <= 2; i++)
+            {
+                if ((grade + i) % 5 == 0)
+                {
+                    roundedGrade = grade + i;
+                    break;
+                }
+            }
+
+            roundedGrades.Add(roundedGrade);
+        }
+
+        return roundedGrades;
     }
 }
