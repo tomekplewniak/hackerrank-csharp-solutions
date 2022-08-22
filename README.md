@@ -19,6 +19,7 @@
 ### Implementation
 - Easy:
 	- Apple and Orange *[Link to challenge](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true)*.
+	- Grading Students *[Link to challenge](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)*.
 
 ### Strings
 - Easy:
