@@ -1,9 +1,12 @@
-﻿int q = Convert.ToInt32(Console.ReadLine().Trim());
-
-for (int qItr = 0; qItr < q; qItr++)
+﻿var testData = new List<string>
 {
-    string s = Console.ReadLine();
-    string result = Result.funnyString(s);
+    "acx",
+    "bcxz"
+};
+
+foreach (var test in testData)
+{
+    string result = Result.FunnyString(test);
 
     Console.WriteLine(result);
 }
@@ -17,7 +20,7 @@ class Result
      * The function is expected to return a STRING.
      * The function accepts STRING s as parameter.
      */
-    public static string funnyString(string s)
+    public static string FunnyString(string s)
     {
 
     }
