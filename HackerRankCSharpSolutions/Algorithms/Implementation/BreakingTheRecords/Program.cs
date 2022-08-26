@@ -1,8 +1,6 @@
-﻿
+﻿var testData = "10 5 20 20 4 5 2 25 1";
 
-
-List<int> scores = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(scoresTemp => Convert.ToInt32(scoresTemp)).ToList();
-
+List<int> scores = testData.TrimEnd().Split(' ').ToList().Select(scoresTemp => Convert.ToInt32(scoresTemp)).ToList();
 List<int> result = Result.BreakingRecords(scores);
 
 Console.WriteLine(String.Join(" ", result));
