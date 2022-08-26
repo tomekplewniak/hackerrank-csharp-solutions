@@ -1,18 +1,17 @@
-﻿string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+﻿int n = 5;
+int k = 4;
 
-int n = Convert.ToInt32(firstMultipleInput[0]);
+var testData = "1 6 3 5 2";
 
-int k = Convert.ToInt32(firstMultipleInput[1]);
+List<int> height = testData.TrimEnd().Split(' ').ToList()
+    .Select(heightTemp => Convert.ToInt32(heightTemp)).ToList();
 
-List<int> height = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(heightTemp => Convert.ToInt32(heightTemp)).ToList();
-
-int result = Result.hurdleRace(k, height);
+int result = Result.HurdleRace(k, height);
 
 Console.WriteLine(result);
 
 class Result
 {
-
     /*
      * Complete the 'hurdleRace' function below.
      *
@@ -22,7 +21,7 @@ class Result
      *  2. INTEGER_ARRAY height
      */
 
-    public static int hurdleRace(int k, List<int> height)
+    public static int HurdleRace(int k, List<int> height)
     {
 
     }
