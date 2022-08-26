@@ -23,6 +23,15 @@ class Result
 
     public static int HurdleRace(int k, List<int> height)
     {
+        int drinks = 0;
 
+        var max = height.Max();
+
+        if (max > k)
+        {
+            drinks = max - k;
+        }
+
+        return drinks;
     }
 }
