@@ -16,6 +16,30 @@ class Result
 
     public static List<int> BreakingRecords(List<int> scores)
     {
+        int highestScore = scores.First();
+        int higestScoreChangeCounter = 0;
+        int lowestScore = scores.First();
+        int lowestScoreChangeCounter = 0;
 
+        foreach (var score in scores)
+        {
+            if (score > highestScore)
+            {
+                highestScore = score;
+                higestScoreChangeCounter++;
+            }
+
+            if (score < lowestScore)
+            {
+                lowestScore = score;
+                lowestScoreChangeCounter++;
+            }
+        }
+
+        return new List<int>()
+        {
+            higestScoreChangeCounter,
+            lowestScoreChangeCounter
+        };
     }
 }
