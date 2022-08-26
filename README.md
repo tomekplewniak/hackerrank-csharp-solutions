@@ -21,6 +21,7 @@
 	- Apple and Orange *[Link to challenge](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true)*.
 	- Grading Students *[Link to challenge](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)*.
 	- Cats and a Mouse *[Link to challenge](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?isFullScreen=true)*.
+	- Breaking the Records *[Link to challenge](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true)*.
 
 ### Strings
 - Easy:
