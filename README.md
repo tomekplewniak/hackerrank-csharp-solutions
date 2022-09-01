@@ -23,6 +23,7 @@
 	- Cats and a Mouse *[Link to challenge](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?isFullScreen=true)*.
 	- Breaking the Records *[Link to challenge](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true)*.
 	- The Hurdle Race *[Link to challenge](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true)*.
+	- Cut the sticks *[Link to challenge](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true)*.
 
 
 ### Strings
