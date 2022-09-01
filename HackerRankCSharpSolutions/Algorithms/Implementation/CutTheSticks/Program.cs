@@ -1,4 +1,6 @@
-﻿List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+﻿var testData = "1 2 3 4 3 3 2 1";
+
+List<int> arr = testData.TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 List<int> result = Result.CutTheSticks(arr);
 
 Console.WriteLine(String.Join("\n", result));
@@ -14,6 +16,6 @@ class Result
 
     public static List<int> CutTheSticks(List<int> arr)
     {
-
+        1 2 3 4 3 3 2 1
     }
 }
