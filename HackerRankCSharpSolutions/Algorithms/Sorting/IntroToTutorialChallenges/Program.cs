@@ -16,6 +16,8 @@ class Result
      */
     public static int IntroTutorial(int v, List<int> arr)
     {
+        var index = arr.IndexOf(v);
 
+        return index;
     }
 }
