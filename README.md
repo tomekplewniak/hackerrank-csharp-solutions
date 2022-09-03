@@ -24,6 +24,7 @@
 	- Breaking the Records *[Link to challenge](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true)*.
 	- The Hurdle Race *[Link to challenge](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true)*.
 	- Cut the sticks *[Link to challenge](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true)*.
+	- Bill Division *[Link to challenge](https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true)*.
 
 
 ### Strings
