@@ -19,6 +19,15 @@ class Result
 
     public static void BonAppetit(List<int> bill, int k, int b)
     {
+        var sharedBill = bill.Sum() - bill[k];
 
+        if ((sharedBill / 2) == b)
+        {
+            Console.WriteLine("Bon Appetit");
+        }
+        else
+        {
+            Console.WriteLine($"{b - (sharedBill / 2)}");
+        }
     }
 }
