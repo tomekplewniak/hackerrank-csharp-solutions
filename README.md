@@ -31,3 +31,6 @@
 	- CamelCase *[Link to challenge](https://www.hackerrank.com/challenges/camelcase/problem?isFullScreen=true)*.
 	- Panagrams *[Link to challenge](https://www.hackerrank.com/challenges/pangrams/problem?isFullScreen=true)*.
 	- Funny String *[Link to challenge](https://www.hackerrank.com/challenges/funny-string/problem?isFullScreen=true)*.
+
+### Sorting
+	- Intro to Tutorial Challenges *[Link to challenge](https://www.hackerrank.com/challenges/tutorial-intro/problem?isFullScreen=true)*.
