@@ -1,16 +1,13 @@
-﻿
-string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
-int n = Convert.ToInt32(firstMultipleInput[0]);
-int k = Convert.ToInt32(firstMultipleInput[1]);
+﻿int n = 4;
+int k = 1;
 
-List<int> bill = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(billTemp => Convert.ToInt32(billTemp)).ToList();
-int b = Convert.ToInt32(Console.ReadLine().Trim());
+List<int> bill = "3 10 2 9".TrimEnd().Split(' ').ToList().Select(billTemp => Convert.ToInt32(billTemp)).ToList();
+int b = 7;
 
-Result.bonAppetit(bill, k, b);
+Result.BonAppetit(bill, k, b);
 
 class Result
 {
-
     /*
      * Complete the 'bonAppetit' function below.
      *
@@ -20,9 +17,8 @@ class Result
      *  3. INTEGER b
      */
 
-    public static void bonAppetit(List<int> bill, int k, int b)
+    public static void BonAppetit(List<int> bill, int k, int b)
     {
 
     }
-
 }
