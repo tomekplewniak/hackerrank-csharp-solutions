@@ -12,6 +12,16 @@ class Result
      */
     public static int ViralAdvertising(int n)
     {
+        int shared = 5;
+        int liked = 0;
 
+        for (int i = 0; i < n; i++)
+        {
+            var likedPerDay = shared / 2;
+            shared = likedPerDay * 3;
+            liked += likedPerDay;
+        }
+
+        return liked;
     }
 }
