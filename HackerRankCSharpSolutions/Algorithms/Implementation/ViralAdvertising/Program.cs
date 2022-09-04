@@ -1,8 +1,7 @@
-﻿int n = Convert.ToInt32(Console.ReadLine().Trim());
-
+﻿int n = 3;
 int result = Result.ViralAdvertising(n);
-
 Console.WriteLine(result);
+
 class Result
 {
     /*
