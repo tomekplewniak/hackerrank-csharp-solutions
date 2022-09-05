@@ -1,11 +1,15 @@
-﻿string s1 = Console.ReadLine();
-string s2 = Console.ReadLine();
-string result = Result.TwoStrings(s1, s2);
-Console.WriteLine(result);
+﻿string s1 = "and";
+string s2 = "art";
+string result1 = Result.TwoStrings(s1, s2);
+Console.WriteLine(result1);
+
+string s3 = "be";
+string s4 = "cat";
+string result2 = Result.TwoStrings(s1, s2);
+Console.WriteLine(result2);
 
 class Result
 {
-
     /*
      * Complete the 'twoStrings' function below.
      *
@@ -19,5 +23,4 @@ class Result
     {
 
     }
-
 }
