@@ -13,6 +13,10 @@ class Result
      */
     public static int FindMedian(List<int> arr)
     {
+        var count = arr.Count();
+        arr.Sort();
 
+        var mediana = arr[count / 2];
+        return mediana;
     }
 }
