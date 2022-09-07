@@ -1,5 +1,5 @@
-﻿int n = Convert.ToInt32(Console.ReadLine().Trim());
-List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+﻿var testData = "0 1 2 4 6 5 3";
+List<int> arr = testData.TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 int result = Result.FindMedian(arr);
 Console.WriteLine(result);
 
