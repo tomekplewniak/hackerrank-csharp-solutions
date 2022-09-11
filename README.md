@@ -26,6 +26,7 @@
 	- Cut the sticks *[Link to challenge](https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true)*.
 	- Bill Division *[Link to challenge](https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true)*.
 	- Viral Advertising *[Link to challenge](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true)*.
+	- Minimum Distances *[Link to challenge](https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true)*.
 
 ### Strings
 - Easy:
