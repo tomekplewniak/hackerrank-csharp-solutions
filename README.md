@@ -36,8 +36,12 @@
 	- Two Strings *[Link to challenge](https://www.hackerrank.com/challenges/two-strings/problem?isFullScreen=true)*.
 
 ### Sorting
-
-	- Intro to Tutorial Challenges *[Link to challenge](https://www.hackerrank.com/challenges/tutorial-intro/problem?isFullScreen=true)*.
+- Intro to Tutorial Challenges *[Link to challenge](https://www.hackerrank.com/challenges/tutorial-intro/problem?isFullScreen=true)*.
 
 - Easy:
 	- Find the Median *[Link to challenge](https://www.hackerrank.com/challenges/find-the-median/problem?isFullScreen=true)*.
+
+## Algorithms
+### Arrays
+- Easy:
+	- Arrays - DS *[Link to challenge](https://www.hackerrank.com/challenges/arrays-ds/problem?isFullScreen=true)*.

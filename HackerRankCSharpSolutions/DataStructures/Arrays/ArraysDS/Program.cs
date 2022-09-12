@@ -5,7 +5,6 @@ Console.WriteLine(String.Join(" ", res));
 
 class Result
 {
-
     /*
      * Complete the 'reverseArray' function below.
      *
@@ -15,6 +14,7 @@ class Result
 
     public static List<int> ReverseArray(List<int> a)
     {
-
+        a.Reverse();
+        return a;
     }
 }
