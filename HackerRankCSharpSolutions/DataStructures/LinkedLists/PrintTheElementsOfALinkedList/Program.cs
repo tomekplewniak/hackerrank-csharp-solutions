@@ -53,7 +53,12 @@
      */
     static void PrintLinkedList(SinglyLinkedListNode head)
     {
-
+        while (head != null)
+        {
+            int x = head.data;
+            Console.WriteLine(x);
+            head = head.next;
+        }
     }
 
     static void Main(string[] args)
