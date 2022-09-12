@@ -45,3 +45,7 @@
 ### Arrays
 - Easy:
 	- Arrays - DS *[Link to challenge](https://www.hackerrank.com/challenges/arrays-ds/problem?isFullScreen=true)*.
+
+### Linked Lists
+- Easy:
+	- Print the Elements of a Linked List *[Link to challenge](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?isFullScreen=true)*.
