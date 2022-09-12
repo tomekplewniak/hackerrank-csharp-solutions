@@ -1,6 +1,5 @@
-﻿
-int arrCount = Convert.ToInt32(Console.ReadLine().Trim());
-List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+﻿var testData = "1 4 3 2";
+List<int> arr = testData.TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 List<int> res = Result.ReverseArray(arr);
 Console.WriteLine(String.Join(" ", res));
 
