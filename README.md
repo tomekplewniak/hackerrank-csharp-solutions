@@ -34,6 +34,7 @@
 	- Panagrams *[Link to challenge](https://www.hackerrank.com/challenges/pangrams/problem?isFullScreen=true)*.
 	- Funny String *[Link to challenge](https://www.hackerrank.com/challenges/funny-string/problem?isFullScreen=true)*.
 	- Two Strings *[Link to challenge](https://www.hackerrank.com/challenges/two-strings/problem?isFullScreen=true)*.
+	- Super Reduced String *[Link to challenge](https://www.hackerrank.com/challenges/reduced-string/problem?isFullScreen=true)*.
 
 ### Sorting
 - Intro to Tutorial Challenges *[Link to challenge](https://www.hackerrank.com/challenges/tutorial-intro/problem?isFullScreen=true)*.
