@@ -1,4 +1,4 @@
-﻿string s = Console.ReadLine();
+﻿string s = "aaabccddd";
 string result = Result.SuperReducedString(s);
 Console.WriteLine(result);
 
