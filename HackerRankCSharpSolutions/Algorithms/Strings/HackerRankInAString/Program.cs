@@ -1,7 +1,6 @@
-﻿string s = Console.ReadLine();
+﻿string s = "hereiamstackerrank";
 
 string result = Result.HackerrankInString(s);
-
 Console.WriteLine(result);
 
 class Result
@@ -16,6 +15,6 @@ class Result
 
     public static string HackerrankInString(string s)
     {
-
+        
     }
 }
