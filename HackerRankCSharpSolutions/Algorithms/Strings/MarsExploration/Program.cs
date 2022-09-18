@@ -1,5 +1,5 @@
 ﻿
-string s = Console.ReadLine();
+string s = "SOSSPSSQSSOR";
 
 int result = Result.MarsExploration(s);
 Console.WriteLine(result);
