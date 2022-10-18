@@ -13,6 +13,24 @@ class Result
      */
     public static int FindDigits(int n)
     {
-        throw new NotImplementedException();
+        var charArray = n.ToString()
+            .ToArray();
+
+        var counter = 0;
+        foreach (var c in charArray)
+        {
+            var number = int.Parse(c.ToString());
+            if (number == 0)
+            {
+                continue;
+            }
+
+            if (n % number == 0)
+            {
+                counter++;
+            }
+        }
+
+        return counter;
     }
 }
