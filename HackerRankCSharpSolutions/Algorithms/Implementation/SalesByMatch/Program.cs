@@ -20,6 +20,26 @@ class Result
 
     public static int SockMerchant(int n, List<int> ar)
     {
+        var countPairs = 0;
 
+        var result = new Dictionary<int, int>();
+
+        var distinctsRecords = ar.Distinct();
+
+        foreach (var d in distinctsRecords)
+        {
+            var count = ar.Where(i => i == d)
+                .Count();
+            
+            result.Add(d, count);
+        }
+
+        foreach (var d in result)
+        {
+            var pairs = d.Value / 2;
+            countPairs += pairs;
+        }
+
+        return countPairs;
     }
 }
