@@ -1,16 +1,10 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
+﻿int n = 9;
+var testData = "10 20 20 10 10 30 50 10 20";
+
+List<int> ar = testData.Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
+int result = Result.SockMerchant(n, ar);
+
+Console.WriteLine(result);
 
 class Result
 {
@@ -24,28 +18,8 @@ class Result
      *  2. INTEGER_ARRAY ar
      */
 
-    public static int sockMerchant(int n, List<int> ar)
+    public static int SockMerchant(int n, List<int> ar)
     {
 
-    }
-
-}
-
-class Solution
-{
-    public static void Main(string[] args)
-    {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
-
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
-
-        List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
-
-        int result = Result.sockMerchant(n, ar);
-
-        textWriter.WriteLine(result);
-
-        textWriter.Flush();
-        textWriter.Close();
     }
 }
