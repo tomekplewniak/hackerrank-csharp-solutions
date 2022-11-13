@@ -1,4 +1,4 @@
-﻿var testData = "20 3 6 80";
+﻿var testData = "20 3 6 85";
 string[] firstMultipleInput = testData.TrimEnd().Split(' ');
 
 int p = Convert.ToInt32(firstMultipleInput[0]);
@@ -24,8 +24,14 @@ class Result
 
     public static int HowManyGames(int p, int d, int m, int s)
     {
-        // Return the number of games you can buy
-
+        int c = 0;
+        while (s >= p)
+        {
+            c++;
+            s -= p;
+            p = p - d > m ? p - d : m;
+        }
+        return c;
     }
 }
 
