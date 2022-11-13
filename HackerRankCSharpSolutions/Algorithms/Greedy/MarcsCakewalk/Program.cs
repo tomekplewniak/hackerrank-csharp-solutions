@@ -16,6 +16,17 @@ class Result
 
     public static long MarcsCakewalk(List<int> calorie)
     {
+        long result = 0;
 
+        calorie.Sort();
+        calorie.Reverse();
+
+        for (int i = 0; i < calorie.Count; i++)
+        {
+            var calculateCal = Math.Pow(2, i) * calorie[i];
+            result += Convert.ToInt64(calculateCal);
+        }
+
+        return result;
     }
 }
