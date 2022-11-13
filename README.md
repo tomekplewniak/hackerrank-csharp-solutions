@@ -47,6 +47,10 @@
 - Easy:
 	- Find the Median *[Link to challenge](https://www.hackerrank.com/challenges/find-the-median/problem?isFullScreen=true)*.
 
+### Greedy
+- Easy:
+	- Marc's Cakewalk *[Link to challenge](https://www.hackerrank.com/challenges/marcs-cakewalk/problem?isFullScreen=true)*.
+
 ## Algorithms
 ### Arrays
 - Easy:
@@ -55,3 +59,4 @@
 ### Linked Lists
 - Easy:
 	- Print the Elements of a Linked List *[Link to challenge](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?isFullScreen=true)*.
+
