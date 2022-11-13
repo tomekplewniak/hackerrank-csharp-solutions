@@ -29,6 +29,7 @@
 	- Minimum Distances *[Link to challenge](https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true)*.
 	- Find Digits *[Link to challenge](https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true)*.
 	- Sales by Match *[Link to challenge](https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true)*.
+	- Halloween Sale *[Link to challenge](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true)*.
 
 ### Strings
 - Easy:
