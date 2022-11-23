@@ -50,6 +50,7 @@
 ### Greedy
 - Easy:
 	- Marc's Cakewalk *[Link to challenge](https://www.hackerrank.com/challenges/marcs-cakewalk/problem?isFullScreen=true)*.
+	- Grid Challenge *[Link to challenge](https://www.hackerrank.com/challenges/grid-challenge/problem?isFullScreen=true)*.
 
 ## Algorithms
 ### Arrays
